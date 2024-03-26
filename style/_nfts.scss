@@ -1,0 +1,31 @@
+.nft{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    padding: 100px 50px;
+    background-color: #410668;
+}
+.foto{
+    padding-top: 25px;
+    padding-bottom:25px;
+    transition: 1s ease;
+    img{
+        padding: 0 40%;
+    }
+    h1{
+        text-align: center;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    p{
+        text-align: center;
+        color: white;
+    }
+    &:hover{
+        transform: translateY(-20px);
+        background-color: #1f0331;
+        border-radius: 10px;
+    }
+}

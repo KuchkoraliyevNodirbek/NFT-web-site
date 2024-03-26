@@ -1,0 +1,86 @@
+.title1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #410668;
+    .title_left {
+        padding: 191px 100px;
+        
+        h1 {
+            color: white;
+            font-size: 64px;
+            padding-bottom: 12px;
+
+            span {
+                color: #AF25D3;
+            }
+
+        }
+
+        p {
+            color: white;
+            font-size: 16px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .btn {
+        padding-right: 24px;
+        button {
+            background-color: rebeccapurple;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+
+    .vidio {
+        button {
+
+            padding: 11px 11px;
+            border-color: #440853;
+            border-radius: 50%;
+            background-color: #72339B;
+        }
+    }
+
+    .vid {
+        padding-bottom: 76px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    .vidio {
+        display: flex;
+        align-items: center;
+    }
+    .vidio{
+p{padding: 15px 10px;
+    font-size: 20px;
+    color: white;
+}
+    }.act{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        align-items: center;
+        gap: 60px;
+        background-color:grey;
+        border-radius: 20px;
+        margin: 24px 0;
+        padding: 20px 10px;
+     
+    }
+    .activ{
+        
+       h1{
+        font-size: 36px;
+       padding: 0 0px;
+       }
+   p{
+    font-size: 16px;
+    padding: 0 0px;
+   } }
+}

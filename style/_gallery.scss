@@ -1,0 +1,44 @@
+
+   
+
+.satr{
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        padding: 50px 0;
+        background-color: #410668;
+    }
+   
+} .rasm1{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+    gap: 60px;
+    justify-content: space-between;
+    background-color: #410668;
+    padding: 10px 50px;
+   
+    }
+    .rasm{
+        color: white;
+        //seknlawtradi
+        transition: 1s ease;
+        
+        h1{
+            font-size: 30px;
+    }p{
+        font-size: 20px;
+    }
+    
+    
+    
+        }
+
+        .rasm:hover{
+
+    transform: translateY(-20px);
+    //tepaga cqaradi
+    background-color: aqua;
+       
+}

@@ -1,0 +1,64 @@
+.satr0{
+  padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #410668;
+    h1{
+        color: white;
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .satr1{
+        p{
+            color: white;
+           
+            padding-bottom: 30px;
+            
+        }
+   img{
+    padding: 0 5px;
+    
+   }
+}
+.satr2 a{
+    color: white;
+display: flex;
+flex-direction: column;
+padding-bottom: 20px;
+text-decoration: none;
+    font-size: 20px;
+}
+.satr3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;   
+}
+.satr4{
+    p{
+        color: white;
+    }
+    .email{
+        border:1px solid grey;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 250px;
+      
+       
+        input{
+            outline: none;
+            border: none;
+            background: none;
+            padding: 15px 5px;
+          
+            
+        }
+    }
+}
+
+}
